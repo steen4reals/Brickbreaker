@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -227,6 +227,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!1 &121013275
 GameObject:
   m_ObjectHideFlags: 0
@@ -333,6 +336,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!1 &152765861
 GameObject:
   m_ObjectHideFlags: 0
@@ -379,6 +385,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!65 &152765864
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -485,6 +494,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!65 &252534091
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -651,6 +663,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!1 &297525637
 GameObject:
   m_ObjectHideFlags: 0
@@ -757,6 +772,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!1 &303361526
 GameObject:
   m_ObjectHideFlags: 0
@@ -863,6 +881,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!1 &423459306
 GameObject:
   m_ObjectHideFlags: 0
@@ -969,6 +990,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!1 &516253950
 GameObject:
   m_ObjectHideFlags: 0
@@ -1015,6 +1039,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!65 &516253953
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1214,6 +1241,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!65 &533318275
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1380,6 +1410,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!1 &563769111
 GameObject:
   m_ObjectHideFlags: 0
@@ -1579,6 +1612,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!1 &637225671
 GameObject:
   m_ObjectHideFlags: 0
@@ -1625,6 +1661,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!65 &637225674
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1976,6 +2015,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!1 &759679084
 GameObject:
   m_ObjectHideFlags: 0
@@ -2022,6 +2064,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!65 &759679087
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2128,6 +2173,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!65 &770984586
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2294,6 +2342,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!1 &793366230
 GameObject:
   m_ObjectHideFlags: 0
@@ -2473,13 +2524,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 804707253}
-  m_LocalRotation: {x: -0.000011534657, y: -0.16991863, z: -0.00006689626, w: 0.9854581}
+  m_LocalRotation: {x: 0, y: 0, z: 0.026176924, w: 0.99965733}
   m_LocalPosition: {x: -10, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 20, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: -0.003, y: -19.566, z: -0.007}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 3}
 --- !u!1 &826730068
 GameObject:
   m_ObjectHideFlags: 0
@@ -2526,6 +2577,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!65 &826730071
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2632,6 +2686,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!65 &829699216
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2798,6 +2855,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!1 &847236856
 GameObject:
   m_ObjectHideFlags: 0
@@ -2997,6 +3057,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!1 &879423368
 GameObject:
   m_ObjectHideFlags: 0
@@ -3043,6 +3106,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!65 &879423371
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3209,6 +3275,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -3338,6 +3407,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!65 &990972215
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3569,6 +3641,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!65 &1106275368
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3675,6 +3750,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!65 &1134443367
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3781,6 +3859,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!65 &1165407364
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3947,6 +4028,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!1 &1391307495
 GameObject:
   m_ObjectHideFlags: 0
@@ -4118,6 +4202,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!1 &1483179507
 GameObject:
   m_ObjectHideFlags: 0
@@ -4224,6 +4311,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!1 &1496488801
 GameObject:
   m_ObjectHideFlags: 0
@@ -4424,6 +4514,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!1 &1718940174
 GameObject:
   m_ObjectHideFlags: 0
@@ -4510,13 +4603,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718940174}
-  m_LocalRotation: {x: -0, y: -0, z: -0.004484145, w: 0.99999}
+  m_LocalRotation: {x: 0, y: 0, z: -0.026176924, w: 0.99965733}
   m_LocalPosition: {x: 10, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 20, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.514}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -3}
 --- !u!1 &1815369423
 GameObject:
   m_ObjectHideFlags: 0
@@ -4623,6 +4716,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!1 &1819271006
 GameObject:
   m_ObjectHideFlags: 0
@@ -4762,6 +4858,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!65 &1828118721
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5277,6 +5376,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
 --- !u!1 &2043788792
 GameObject:
   m_ObjectHideFlags: 0
@@ -5476,3 +5578,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30b6095c51db43c29c8358e7697af9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestroyEffect: {fileID: 8056703457708307714, guid: ed4af5240f207954097c33e5b19aab8c,
+    type: 3}
+  HitPoints: 1
